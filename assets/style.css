@@ -3,4 +3,50 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+#menu-btn{
+    position: fixed;
+    top: 8%;
+    left: 1%;
+    background-color: transparent;
+    border: 0;
+    border-radius: 15%;
+}
+
+#menu-btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#menu-btn:active{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.oculto {
+    display: none;
+}
+
+#lista {
+    position: fixed;
+    top: 7%;
+    left: 3%;
+}
+
+#empresaDesc {
+    padding: 40px;
+    text-align: center;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
 }
